@@ -13,7 +13,7 @@ def start():
 
     ap = argparse.ArgumentParser()
     ap.add_argument("-a", "--agency", type=str, default="all")
-    ap.add_argument("-o", "--output", type=str, default="agnecy.json")
+    ap.add_argument("-o", "--output", type=str, default="agency.json")
     ap.add_argument("-m", "--month", type=str, default=1)
     args = ap.parse_args()
 
